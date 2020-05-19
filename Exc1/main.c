@@ -26,7 +26,7 @@ char* WcharToChar(WCHAR* Name) {
 int main()
 {
 	WIN32_FIND_DATA FindFileData;
-	HANDLE hf = FindFirstFile(L"*.txt", &FindFileData);
+	HANDLE hf = FindFirstFile(L"***.txt", &FindFileData);
 	if (hf != INVALID_HANDLE_VALUE)
 	{
 		do
